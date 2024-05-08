@@ -101,7 +101,7 @@ def download_data(symbols):
     period = "weekly" # was daily but it's a premium feature
     interval = None
     adjusted = True
-    what = "adjusted_close"
+    what = "close"
     asset_type = "stocks"
     # 1. Get timescale and data
     timescale = av.timescale(period, interval, asset_type)
