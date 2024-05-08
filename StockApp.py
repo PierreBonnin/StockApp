@@ -98,7 +98,7 @@ def download_data(symbols):
     av_key = st.secrets["AV_KEY"]
     api.log_in(av_key)
 
-    period = "daily"
+    period = "weekly" # was daily but it's a premium feature
     interval = None
     adjusted = True
     what = "adjusted_close"
